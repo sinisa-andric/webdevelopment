@@ -7,7 +7,10 @@ import (
 
 func handlerFunction(writter http.ResponseWriter, reader *http.Request) {
 
-	fmt.Fprint(writter, "<h1> Welcome to my website! </h1>")
+	// log
+	fmt.Println("Someone visited oru page")
+
+	fmt.Fprint(writter, "<h1> Welcome to my website! HOT RELOAD </h1>")
 
 }
 
