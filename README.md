@@ -18,8 +18,6 @@ Executing program
 
 ``` go run main.go ```
 
-code blocks for commands
-
 Help
 
 
