@@ -23,12 +23,13 @@ Practice makes perfect
 
 ## Authors
 
-Siniša Andrić [@AndricSinisa](https://twitter.com/AndricSinisa)
+Siniša Andrić 
+[@AndricSinisa](https://twitter.com/AndricSinisa)
 
 ## Version History
 
     0.1
-        Initial Release
+    Initial Release
 
 ## License
 
