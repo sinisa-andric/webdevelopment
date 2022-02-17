@@ -25,10 +25,14 @@ func handlerFunction(writter http.ResponseWriter, reader *http.Request) {
 
 func main() {
 
+	// mux
+	mux := &http.ServeMux{}
+	mux.HandleFunc("/", handlerFunction)
+
 	// router
-	http.HandleFunc("/", handlerFunction)
+	// http.HandleFunc("/", handlerFunction)
 
 	// localhost on port 3001
-	http.ListenAndServe(":3001", nil)
+	http.ListenAndServe(":3001", mux)
 
 }
