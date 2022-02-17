@@ -10,7 +10,7 @@ func handlerFunction(writter http.ResponseWriter, reader *http.Request) {
 	writter.Header().Set("Content-Type", "text/html")
 
 	// log
-	fmt.Println("Someone visited oru page")
+	fmt.Println("Someone visited our page")
 	fmt.Println(writter, reader.URL.Path)
 
 	if reader.URL.Path == "/" {
