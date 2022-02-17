@@ -7,6 +7,8 @@ import (
 
 func handlerFunction(writter http.ResponseWriter, reader *http.Request) {
 
+	writter.Header().Set("Content-Type", "text/html")
+
 	// log
 	fmt.Println("Someone visited oru page")
 
