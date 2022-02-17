@@ -1,34 +1,34 @@
 
-Web development using Go
+# Web development using Go
 
 Basics practice
 
 
-Description
+## Description
 
 Practice makes perfect
 
-Getting Started
+## Getting Started
 
-Dependencies
+### Dependencies
 
-Installing
+### Installing
 
-Executing program
+### Executing program
 
 ``` go run main.go ```
 
-Help
+## Help
 
 
-Authors
+## Authors
 
-Siniša Andrić 
+Siniša Andrić [@AndricSinisa](https://twitter.com/AndricSinisa)
 
-Version History
+## Version History
 
     0.1
         Initial Release
 
-License
+## License
 
