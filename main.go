@@ -30,7 +30,7 @@ func main() {
 	mux.HandleFunc("/", handlerFunction)
 
 	// router
-	// http.HandleFunc("/", handlerFunction)
+	http.HandleFunc("/", handlerFunction)
 
 	// localhost on port 3001
 	http.ListenAndServe(":3001", mux)
